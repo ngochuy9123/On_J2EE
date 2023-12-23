@@ -1,0 +1,9 @@
+version: '3.8'
+name: ontapj2ee
+services:
+  db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: huy
+    ports:
+      - 3306:3306
